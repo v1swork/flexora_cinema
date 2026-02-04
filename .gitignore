@@ -1,0 +1,13 @@
+# OS мусор
+.DS_store 
+Thumbs.db 
+
+#IDE
+.vscode/
+.idea/
+
+#Секреты
+.env
+
+#уберём тяжёлые фильмы
+assets/player/*.*

@@ -1,0 +1,159 @@
+footer {
+    background-color: black;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f_poster {
+    display: flex;
+    position: relative;
+    color: rgb(234, 234, 234);
+    margin-left: 100px;
+    justify-content: flex-start;
+    height: 500px;
+}
+.f_poster img {
+    height: 470px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.f_div_poster{
+    z-index: 1;
+    top: 50px;
+    max-width: 400px;
+}
+.f_div_poster h1 {
+    font-size: 45px;
+}
+.f_div_poster p {
+    margin-top: 20px;
+    font-size: 23px;
+}
+.f_btn_sub {
+    line-height: 0%;
+    z-index: 1;
+    background: linear-gradient(90deg,red -10%, purple 65%, blue );
+    padding: 32px 45px;
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+    border-radius: 500px;
+    font-size: 20px;
+    margin-top: 30px;
+    width: fit-content;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.f_btn_sub:hover {
+    scale: 1.05;
+}
+
+.f_need_for_poster {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: center;
+}
+
+.f_poster > p {
+    position: absolute;
+    bottom: 40px;
+    color: rgba(135, 135, 135, 0.84);
+    margin-right: 160px;
+    font-size: 11px;
+}
+
+.f_div_poster p s {
+     color: rgba(135, 135, 135, 0.84);
+}
+.f_social_btns {
+    display: flex;
+    justify-content: center;
+}
+.f_btn_img_ico {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(183, 183, 183, 0.6);
+    mask-image: var(--icon-path);
+    mask-size: 27px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    transition: all 0.3s ease;
+    padding: 6px;
+}
+.f_btn_img_ico:hover {
+    background-color: rgba(255, 255, 255, 0.667);
+
+}
+.f_menu_btns {
+    text-align: center;
+    margin: 10px 4% 20px 4%;
+}
+.f_menu_btn {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 15px;
+    padding-top: 10px;
+    /* text-decoration: none; */
+    text-decoration: wavy;
+    color: rgba(183, 183, 183, 0.6);
+    transition: all 0.3s ease;
+}
+.f_menu_btn:hover {
+    color: rgba(255, 255, 255, 0.667);
+}
+.f_download_apps {
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px 50px 30px;
+    border-bottom: 0.6px solid rgba(27, 27, 27, 0.315);
+}
+
+.f_download_app {
+    margin: 0 0.6%;
+}
+
+.f_btn_app_ico {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(219, 219, 219, 0.881);
+    mask-image: var(--icon-path);
+    mask-size: auto;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    transition: all 0.3s ease;
+}
+.f_btn_app_ico:hover {
+    background-color: rgb(255, 255, 255);
+}
+.f_down_text_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5.5%;
+    padding-bottom: 30px;
+}
+.f_text_info {
+    display: flex;
+}
+.f_text_info p {
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.315);
+    padding: 5px;
+}
+.f_text_info a {
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.315);
+    text-decoration: none;
+    padding: 5px;
+}
+.f_text_info a:hover {
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.667);
+}
+#Flexora {
+    font-size: 17px;
+}
